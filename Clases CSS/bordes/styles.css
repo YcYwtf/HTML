@@ -1,0 +1,46 @@
+div{
+    background: red;
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    color: white;
+}
+
+div{
+    border: 1.5px solid black;
+    border-radius: 20px 0 0 0;
+}
+
+.input{
+    height: 15px;
+    margin: 15px 0 0 5px;
+    padding: 3px 6px;
+    font-size: 9px;
+    background: whitesmoke;
+    border-style: none;
+    border-radius: 20px;
+}
+
+.sumbit{
+    height: 20px;
+    width: 70px;
+    margin-left: 20px;
+    font-size: 10px;
+    background: lightgreen;
+    color: black;
+    border: 1.5px solid green;
+    border-radius: 10px;
+}
+
+.password{
+    border: 1.5px solid darkgray;
+    background-color: lightgray;
+    color: white;
+}
+
+.description{
+    width: 180px;
+    height: 200px;
+    color: black;
+    border-radius: 5px;
+}

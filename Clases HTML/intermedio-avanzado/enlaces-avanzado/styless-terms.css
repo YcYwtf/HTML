@@ -1,0 +1,77 @@
+body{
+    font-family: Segoe UI;
+}
+
+.header{
+    width: 100%;
+    text-align: center;
+    color: #04c;
+    margin-bottom: 5px;
+}
+
+.index{
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 25px;
+    width: 70%;
+    background-color: #fff;
+    border-radius: 15px;
+    padding-bottom: 15px;
+    box-shadow: 3px 3px 8px #0003;
+}
+
+.title-index{
+    text-align: center;
+    padding-top: 15px;
+    color: #35c;
+}
+
+.index-list{
+    color: #05a;
+}
+
+.index-list-item, .link-index{
+    font-weight: 600;
+    font-size: 1.1em;
+    padding-bottom: 12px;
+    color: #07c;
+    text-decoration: none;
+}
+
+.Downloader, .Back{
+    font-weight: 700;
+    font-size: 1.1em;
+    color: #05c;
+    margin: 32%;
+    text-decoration: none;
+}
+
+.Back{
+    color: #05f;
+}
+
+.termsP{
+    box-sizing: border-box;
+    margin: auto;
+    margin-bottom: 20px;
+    width: 60%;
+    border: 2px solid #bbb;
+    border-radius: 15px;
+    padding: 5px 10px;
+    box-shadow: 3px 3px 8px #0003;
+}
+
+.title-termsP{
+    color: #39cd;
+    margin-bottom: -5px;
+}
+
+.parr-termsP{
+    color: #05a;
+    font-weight: 500;
+}
+
+.ul-termsP{
+    color: #05a;
+    font-weight: 500;
+}

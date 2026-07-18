@@ -1,0 +1,18 @@
+.box{
+    width: 100px;
+    height: 100px;
+    background: red;
+    margin: 10px;
+}
+
+.default-box{
+    box-sizing: content-box;
+    padding: 25px;
+    border: 2px solid black;
+}
+
+.box-new{
+    box-sizing: border-box;
+    padding: 25px;
+    border: 2px solid black;
+}

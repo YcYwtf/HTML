@@ -1,0 +1,10 @@
+p{
+    color: blue;
+    font-family: Montserrat;
+    font-weight: 900;
+}
+
+span{
+    color: brown;
+    text-decoration: line-through;
+}

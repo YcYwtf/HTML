@@ -1,0 +1,11 @@
+body{
+    background: #2af8;
+}
+
+.box{
+    width: 300px;
+    height: 250px;
+    margin: auto;
+    margin-top: 30px;
+    background:url("https://es.hollywoodreporter.com/wp-content/uploads/2025/10/Ace-Frehley-guitarrista-de-Kiss-y-leyenda-del-rock-muere-a-los-74-anos.jpg") center / cover #08b;
+}

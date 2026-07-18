@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datalist select y option</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+        <h2>Formulario de contacto</h2>
+        <div class="form-input">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" placeholder="John Doe" id="nombre">
+        </div>
+        <div class="form-input">
+            <label for="email">Email</label>
+            <input type="email" placeholder="Ejemplo@gmail.com" id="email">
+        </div>
+        <!--Select y option-->
+        <div class="form-input">
+            <label>Tipo de usuario</label>
+            <select name="type-of-user">
+                <option value="userA">Admin</option>
+                <option value="userE">Empleado</option>
+                <option value="user">Usuario normal</option>
+            </select>
+        </div>
+        <!--Datalist y option-->
+        <div class="form-input">
+            <label>Donde conocio la pagina</label>
+            <input type="text" placeholder="persona referente" list="referente">
+            <datalist id="referente">
+                <option value="Empresa">Empresas de uso cotidiano</option>
+                <option value="Redes">Tiktok, twiter, yutube etc.</option>
+                <option value="Conocido">Familiar, amigo, otro</option>
+            </select>
+        </div>
+        <div class="form-input">
+            <label for="msj">Mensaje</label>
+            <textarea rows="8" placeholder="Deja tu mensaje..." id="msj"></textarea>
+        </div>
+        <div class="form-input">
+            <label>Acepto los terminos y condiciones
+                <input type="checkbox" class="checkbox">
+            </label>
+        </div>
+    </form>
+</body>
+</html>
