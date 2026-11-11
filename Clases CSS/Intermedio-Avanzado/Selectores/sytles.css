@@ -1,0 +1,9 @@
+/* SELECTOR POR ATRIBUTO */
+img[src="image.png"]{
+    width: 100%;
+}
+
+/* SELECTOR POR HIJO DIRECTO */
+li > strong {
+    color: red;
+}
